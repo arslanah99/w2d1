@@ -20,8 +20,10 @@ function getHTML (options, callback) {
     console.log(html);
   }
   
+  var getHTML = require('./Make_It_Module');
+
   var requestOptions = {
     host: 'sytantris.github.io',
-    path: '/http-examples/step4.html'
+    path: '/http-examples/step5.html'
   };
   getHTML(requestOptions, printHTML)
